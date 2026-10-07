@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 16px 24px;
+    background-color: lightgray;
+    border-bottom: 1px solid gray;
+}
+
+nav{
+    display: flex;
+    gap: 16px;
+}
+
+button{
+    background-color: blue;
+    padding: 7px 12px;
+    border-radius: 10px;
+    border: 1px solid red;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: red;
+    background-color: azure;
+    scale: 1.3;
+
+    transition-property: scale;
+    transition-duration: 0.5s;
+}
+
+button:active{
+    background-color: black;
+    color: white;
+    scale: 0.9;
+    transition-duration: 0.10s;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+    align-items: center;
+    padding: 20px 0 40px;
+}
+
+div{
+    height: 200px;
+    width: 250px;
+    background-color: lightsalmon;
+    border: 1px solid brown;
+}
+
+/* ----------------------------------------- */
+
+@media(width<768px){
+    header{
+        background-color: crimson;
+    }
+    
+    nav{
+        display: none;
+    }
+}
+
+/* we always go for moblie first application, so try to make css file according it than go in media to change for laptop.*/

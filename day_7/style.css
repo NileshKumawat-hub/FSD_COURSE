@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+}
+
+#title {
+    color: chocolate;
+}
+
+p {
+    color: blueviolet;
+    background-color: coral;
+}
+
+.special-text {
+    color: chartreuse;
+}
+
+span {
+    color: brown;
+    background-color: cyan;
+}

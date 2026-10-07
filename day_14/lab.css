@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item{
+    background-color: pink;
+    border: solid 10px palevioletred;
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+    /* border-top-left-radius: 50%; */
+    /* border-bottom-left-radius: 50%; */
+    background-image: url(https://astrocamp.org/wp-content/uploads/2015/12/IS-BH-1024x576-1.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.item2{
+    background-color: pink;
+    color: blue;
+    font-size: 40px;
+    border: solid 10px palevioletred;
+    height: 70px;
+    width: 300px;
+    border-top-left-radius: 100;   
+}

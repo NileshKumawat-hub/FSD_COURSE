@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    padding: 24px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.child {
+    padding: 24px;
+    background-color: red;
+    border: 10px solid black;
+}

@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    /* height:1060.75px
+    weidth:1875.85*/
+    height: 100vh;
+    width: 100vw;
+    background-color: lime;
+    padding: 80px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Forms</title>
+</head>
+<body>
+    <h1>CR FORM</h1>
+
+    <form  action="/register" method="get" autocomplete="on" >
+        <label for="name">Enter your name:</label>
+        <input type="text" placeholder="Enter your name" id="name" name="name" value="Nilesh Kumawat" required minlength="2" maxlength="50">
+        <br><br>
+        <label for="age">Enter your age:</label>
+        <input type="number" placeholder="Enter your age" id="age" name="age" value="30" required min="1" max="100">
+        <br><br>
+        <label for="email">Enter your email:</label>
+        <input type="email" placeholder="Enter your email" id="email" name="email" maxlength="100">
+        <br><br>
+        <label for="password">Enter your password:</label>
+        <input type="password" placeholder="Enter your password" id="password" name="password" required minlength="8" maxlength="20">
+        <br><br>
+        <label for="color">Enter your favorite color:</label>
+        <input type="color" id="color" name="color">
+        <br><br>
+        <label for="date">Enter your date of birth:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <br><br>
+        <input type="submit" value="Submit Your application">
+        <input type="reset" value="Reset Your application">
+    </form>
+</body>
+</html>
